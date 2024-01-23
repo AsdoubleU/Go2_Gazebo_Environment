@@ -1,0 +1,109 @@
+joint_limits:
+  FL_hip_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  FL_thigh_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  FL_calf_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  FR_hip_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  FR_thigh_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  FR_calf_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  RL_hip_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  RL_thigh_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  RL_calf_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  RR_hip_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  RR_thigh_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0
+  RR_calf_joint:
+    # acceleration limits are not publicly available
+    has_acceleration_limits: false
+    has_effort_limits: false
+    has_position_limits: false
+    has_velocity_limits: false
+    # max_position: !degrees  90.0
+    # max_velocity: !degrees  360.0
+    # min_position: !degrees -90.0

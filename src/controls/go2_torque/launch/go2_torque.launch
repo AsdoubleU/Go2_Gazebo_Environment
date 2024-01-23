@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<launch>
+  <!--
+      Launch file for the admittance controller
+  -->
+
+  <arg name="TOPIC_LEG_STATE" default="/go2/joint_states"/>
+  <arg name="TOPIC_LEG_COMMAND" default="/go2/joint_torque_controller/command"/>
+  <arg name="TOPIC_BODY_STATE" default="/gazebo/model_states"/>
+  <arg name="TOPIC_IMU" default="/imu"/>
+
+  <param name="topic_leg_state" value="$(arg TOPIC_LEG_STATE)"/>
+  <param name="topic_leg_command" value="$(arg TOPIC_LEG_COMMAND)"/>
+  <param name="topic_body_state" value="$(arg TOPIC_BODY_STATE)"/>
+  <param name="topic_imu" value="$(arg TOPIC_IMU)"/>
+
+  <!-- ros_control go2 launch file -->
+  <include file="$(find go2_control)/launch/go2_control.launch"/>
+
+  <node pkg="go2_torque" name="go2_torque" type="go2_torque_node" output="screen"/>
+</launch>

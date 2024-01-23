@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/simon/catkin_ws/devel/include/**",
+        "/home/simon/go2_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/simon/go2_ws/src/controls/hpp-fcl/include/**",
+        "/home/simon/catkin_ws/src/microstrain_inertial/microstrain_inertial_driver/include/**",
+        "/home/simon/catkin_ws/src/microstrain_inertial_listener/include/**",
+        "/home/simon/go2_ws/src/controls/go2_torque/include/**",
+        "/home/simon/go2_ws/src/controls/go2_torque/include/",
+        "/home/simon/go2_ws/src/controls/go2_torque/include/Tools",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
